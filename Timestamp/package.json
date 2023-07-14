@@ -4,8 +4,7 @@
   "description": "A simple website that accepts two timestamps and displays the difference on the UI.",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "build": "npm i"
+    
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
