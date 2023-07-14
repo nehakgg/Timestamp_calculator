@@ -6,7 +6,7 @@ function App() {
   const [differenceInSeconds, setDifferenceInSeconds] = useState(null);
 
   const calculateDifference = () => {
-    fetch('http://localhost:5000/api/calculate', {
+    fetch('https://whimsical-choux-7b4c56.netlify.app/api/calculate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ timestamp1, timestamp2 }),
